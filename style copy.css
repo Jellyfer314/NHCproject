@@ -1,6 +1,6 @@
 body {
     /* font for text */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
 
     /* color of text */
     color: black;
@@ -15,9 +15,9 @@ body {
 
 .background::after {
     content: "";
-    background-image: url("../images/desk-background.jpg");
+    background-color: lightblue;
     background-repeat: repeat-y;
-    opacity: 0.5;
+    opacity: 1;
     top: 0;
     left: 0;
     bottom: 0;
@@ -29,14 +29,14 @@ body {
 h1 {
 
     /* Set the font size to 30 pixels */
-    font-size: 40px;
+    font-size: 60px;
 
 
 }
 
 h2 {
     /* Set the font size to 25 pixels */
-    font-size: 40px;
+    font-size: 55px;
 
 }
 
@@ -48,7 +48,7 @@ h3 {
 
 p {
     /* Set the font size to 18 pixels */
-    font-size: 20px;
+    font-size: 40px;
 
 }
 
