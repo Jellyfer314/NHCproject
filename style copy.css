@@ -11,8 +11,8 @@ body {
 .background {
     display: block;
     position: relative;
-}
-
+    background-color: lightblue;
+}    
 .background::after {
     content: "";
     background-color: lightblue;
